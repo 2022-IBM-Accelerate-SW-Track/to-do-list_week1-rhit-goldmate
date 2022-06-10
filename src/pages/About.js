@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./About.css";
-// import headshot from "../assets/headshot.jpg";
+import headshot from "../assets/headshot.jpg";
 
   
 export default class About extends Component {
@@ -11,7 +11,7 @@ export default class About extends Component {
         <div className="centered">
           <img 
             className="profile_image"
-            src="headshot.jpg"
+            src={headshot}
             alt="Profile Pic"
             ></img>
         </div>
